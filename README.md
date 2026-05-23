@@ -6,7 +6,7 @@ An interactive browser-based drum kit that lets you play drum sounds using your 
 
 ## 🎮 Demo
 
-> Play it live: [Live link](https://ashutosht0210.github.io/Drum-Kit)
+> Play it live: [Live link](https://ashutosht0210.github.io/Drum-Kit/)
 
 ---
 

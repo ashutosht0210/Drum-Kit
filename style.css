@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.play-section {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 25px;
+    transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1);
+    background: rgba(0, 0, 0, 0.45);    /* darker, more opaque */
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 .5rem black;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    h1 { font-family: 'Bebas Neue', sans-serif; }
+}
+
+p {
+    letter-spacing: .1rem;
+    color: #ffc600;
+    font-size: 11px;
+}
+
+button:hover  { 
+    transform: scale(1.1);  
+    background: rgba(0,0,0,0.8);
+    border: 1px solid #ffc600;
+}
+
+button.active {
+    transform: scale(0.9);
+    background: rgba(0,0,0,0.8);
+    border: 3px solid #ffc600;
+}

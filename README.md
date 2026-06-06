@@ -53,6 +53,7 @@ An interactive browser-based drum kit that lets you play drum sounds using your 
 
 ```
 Drum-Kit/
+├── README.md
 ├── index.html
 ├── style.css
 ├── app.js
